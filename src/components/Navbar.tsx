@@ -62,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   return (
     <header
       className={cn(
-        "w-full border-b border-border/40 bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60 z-50 transition-all",
+        "w-full border-b border-border/40 bg-background/80 backdrop-blur-md supports-backdrop-filter:bg-background/60 z-50 transition-all",
         sticky && "sticky top-0",
         className
       )}
@@ -89,7 +89,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             />
           </div>
           {showBrandName && (
-            <span className="font-extrabold tracking-widest text-lg sm:text-xl uppercase bg-gradient-to-r from-foreground via-foreground/90 to-primary bg-clip-text text-transparent select-none">
+            <span className="font-extrabold tracking-widest text-lg sm:text-xl uppercase bg-linear-to-r from-foreground via-foreground/90 to-primary bg-clip-text text-transparent select-none">
               {brandName}
             </span>
           )}

@@ -41,7 +41,7 @@ export function App() {
             <div className="space-y-4 max-w-3xl mx-auto">
               <h1 className="text-4xl sm:text-6xl font-black tracking-tight uppercase">
                 Welcome to{' '}
-                <span className="bg-gradient-to-r from-red-500 via-rose-500 to-amber-500 bg-clip-text text-transparent">
+                <span className="bg-linear-to-r from-red-500 via-rose-500 to-amber-500 bg-clip-text text-transparent">
                   Atarixana
                 </span>
               </h1>
@@ -159,7 +159,7 @@ export function App() {
                   type="text"
                   required
                   placeholder="Your name"
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-input bg-background/80 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary text-sm"
+                  className="w-full px-3.5 py-2.5 rounded-lg border border-input bg-background/80 text-foreground focus:outline-none focus:ring-2 focus:ring-primary text-sm"
                 />
               </div>
 
@@ -169,7 +169,7 @@ export function App() {
                   type="email"
                   required
                   placeholder="gamer@atarixana.com"
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-input bg-background/80 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary text-sm"
+                  className="w-full px-3.5 py-2.5 rounded-lg border border-input bg-background/80 text-foreground focus:outline-none focus:ring-2 focus:ring-primary text-sm"
                 />
               </div>
 
@@ -179,7 +179,7 @@ export function App() {
                   rows={4}
                   required
                   placeholder="Tell us what you need..."
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-input bg-background/80 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary text-sm resize-none"
+                  className="w-full px-3.5 py-2.5 rounded-lg border border-input bg-background/80 text-foreground focus:outline-none focus:ring-2 focus:ring-primary text-sm resize-none"
                 />
               </div>
 
